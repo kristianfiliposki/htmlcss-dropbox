@@ -1,0 +1,29 @@
+.container{
+    min-height:90vh;
+}
+
+.colonna{
+    width : calc(100% / 4 );
+}
+
+.container-team,.partner,.DropBox-business{
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+.DropBox-business,.affiliate{
+    height: 130vh;
+}
+
+.strumenti,.soci,.block,.scritte{
+    border: 1px solid black;
+}
+
+.scritte{
+    width: calc(100% / 5);
+    min-height: 60%;
+}
+
+footer{
+    padding-top:2.2em;
+}
