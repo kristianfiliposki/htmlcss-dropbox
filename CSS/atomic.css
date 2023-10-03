@@ -2,6 +2,8 @@
     min-height:90vh;
 }
 
+header{z-index:999;}
+
 .colonna{
     width : calc(100% / 4 );
 }
@@ -9,6 +11,11 @@
 .container-team,.partner,.DropBox-business{
     margin-top: 5%;
     margin-bottom: 20%;
+}
+
+div>li{
+    list-style-type: none;
+    vertical-align: middle
 }
 
 .DropBox-business,.affiliate{
@@ -27,3 +34,7 @@
 footer{
     padding-top:2.2em;
 }
+
+main{
+}
+
