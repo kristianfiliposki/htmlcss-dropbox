@@ -2,7 +2,7 @@
     min-height:90vh;
 }
 
-header{z-index:999;}
+header{z-index:999;top: 0;}
 
 .colonna{
     width : calc(100% / 4 );
@@ -36,5 +36,6 @@ footer{
 }
 
 main{
+    margin-top:var(--header-height);
 }
 
