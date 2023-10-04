@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/atomic.css">
     <link rel="stylesheet" href="./CSS/utilities.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>DropBox</title>
 </head>
 <body>
-    <header class="bg-white fixed w-100 ">
+    <header class="bg-white fixed w-100">
         <div class="w-100 h-100  d-flex flex-justify-between flex-align-center">
             
             <div class="d-flex  flex-align-center">
@@ -31,159 +32,404 @@
     </header>
 
     <main>
-        <div class="container bg-green">
-            <div class="w-100 vh-70 bg-violet">
-                <div class="titolo bg-pink h-20"></div>
-                <div class="d-flex h-100">
-                    <div class="paragrafi bg-black h-90 w-35">
-                        <div></div>
-                        <div></div> 
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <div class="img bg-blue h-100 w-65">
-                        <img src="" alt="">
+        <div class="container bg-lightblue pt-32 relative">
+            <div class="w-70 m-auto mt-16 container-jambo">
+                <div class="titolo w-100 h-20"><h1>Tutto ciò di cui hai bisogno per il lavoro,un posto</h1></div>
+                <div class="d-flex  h-100 mt-64 flex-justify-center ">
+                    <ul class="paragrafi h-90 w-30 d-flex flex-align-start  flex-column">
+                        <li><p>Con i prodotti per l'archiviazione cloud e la condivisione, le firme elettroniche, il monitoraggio dei documenti e il backup, Dropbox ti aiuta a rendere il tuo lavoro e la tua vita privata più semplici.</p></li>
+                        <li class="bg-blue p-16 mt-32 mb-32 c-white">inizia la tua prova gratuita</li> 
+                        <li>Annula in qualsiasi momento</li>
+                        <li><i class="fa-solid fa-arrow-down mt-32"></i></li>
+                    </ul>
+                    <div class="img h-100 w-65 ">
+                        <img src="./dropbox-assets/img/jumbo.png" alt="foto" class="w-100">
                     </div>
                 </div>
             </div>
+
         </div>
 
         
         <div class="vw-60 m-auto">
     
-            <div class="vh-140 bg-lightcoral">
-                <div class="titolo h-10 bg-white"></div>
+            <div class=" mt-64">
+                <div class="titolo h-10 bg-white pb-32 f-32"><h2>Trova il piano business che fa per te</h2></div>
     
-                <div class="check-radio d-flex flex-align-center h-10 w-100">
-                    <input type="text" class="m-16 h-30">
-                    <input type="text" class="m-16 h-30">
+                <div class="check-radio d-flex flex-align-center w-100">
+                    <div><input type="radio" class="m-16 ">Fatturazione Mensile</div>
+                    <div><input type="radio" class="m-16 ">Fatturazione Annuale</div>
                 </div>
     
-                <div class="colonne d-flex flex-justify-between h-80 ">
+                <div class="colonne d-flex flex-justify-around">
 
-                        <div class="colonna h-100 bg-green m-auto"></div>
-                        <div class="colonna h-100 bg-red m-auto"></div>
-                        <div class="colonna h-100 bg-blue m-auto"></div>
+                        <div class="colonna  mt-64">
+                                <div class="d-flex flex-justify-center pt-8 pb-8 titoli-col">
+                                    <div class="mr-16 f-16">Singolo</div>
+                                    <i class="fa-solid fa-user f-16"></i>    
+                                </div>
+                                <div class="w-70 m-auto">
+                                    <h3 class="f-24 pt-8">professional</h3>
+                                    <h3 class="f-16 pt-8">20€</h3>
+                                    <div class="c-grey pt-16">/mese</div>
+                                    
+                                    <div class= "d-flex mt-32 pt-16">
+                                        <i class="fa-solid fa-user f-16"></i> 
+                                        <div class=" ml-8">1 utente</div>   
+                                    </div>
+
+                                    <div class="d-flex mt-32 pt-16">
+                                        <i class="fa-solid fa-folder f-16"></i>
+                                        <div class=" ml-8">
+                                            5TB di memoria
+                                        </div>   
+                                    </div>
+
+                                    <div class="d-flex mt-32 pt-32">
+                                        <i class="fa-solid fa-share-nodes f-16"></i>
+                                        <div class=" ml-8">
+                                            Funzione di produttività premium e condivisione dei file semplice e sicura
+                                        </div>   
+                                    </div>
+
+                                    <div class="bg-blue p-8 c-white mt-32">
+                                        Prova gratis per 30 giorni
+                                    </div>
+
+                                    <div class="pt-32">
+                                        oppure <span class="c-blue">acquista ora</span>
+                                    </div>
+
+                                    <div class="w-20 hr-colonna mt-32 mb-32"></div>
+
+                                    <h3>Punti salienti del piano</h3>
+
+                                    <ul>
+                                        <li class="Punti-salienti pt-16">Invia file fino a 100GB con dropbox o transfert</li>
+                                        <li class="Punti-salienti pt-16"> Cartelle offline dispositivi mobili</li>
+                                    </ul>
+
+
+                                </div>
+                        </div>
+
+                        <div class="colonna mt-64">
+                                <div class="d-flex flex-justify-center pt-8 pb-8 titoli-col">
+                                    <div class="mr-16 f-16">Team</div>
+                                    <i class="fa-solid fa-users f-16"></i>    
+                                </div>
+                                <div class="w-70 m-auto ">
+                                    <h3 class="f-24 pt-8">Advance</h3>
+                                    <h3 class="f-16 pt-8">30€</h3>
+                                    <div class="c-grey pt-16">/utente</div>
+                                    
+                                    <div class="d-flex mt-32 pt-16">
+                                        <i class="fa-solid fa-users f-16"></i> 
+                                        <div class=" ml-8">2 o più utenti</div>   
+                                    </div>
+
+                                    <div class="d-flex mt-32 pt-16">
+                                        <i class="fa-solid fa-folder f-16"></i>
+                                        <div class=" ml-8">
+                                            Lo spazio iniziale è di 15 TB 
+                                        </div>   
+                                    </div>
+
+                                    <div class="d-flex mt-32 pt-16">
+                                        <i class="fa-solid fa-share-nodes f-16"></i>
+                                        <div class=" ml-8">
+                                            Funzione di produttività premium e condivisione dei file semplice e sicura
+                                        </div>       
+                                    </div>
+
+                                    <div class="bg-blue p-8 c-white mt-32">
+                                        Prova gratis per 30 giorni
+                                    </div>
+
+                                    <div class="pt-32">
+                                        oppure <span class="c-blue">acquista ora</span>
+                                    </div>
+
+                                    <div class="w-20 hr-colonna mt-32 mb-32"></div>
+
+                                    <h3>Punti salienti del piano</h3>
+
+                                    <ul>
+                                        <li class="Punti-salienti pt-16">Nessun limite di spazio per <template></template></li>
+                                        <li class="Punti-salienti pt-16"> Cartelle offline dispositivi mobili</li>
+                                        <li class="Punti-salienti pt-16"> Risparmio del 50% rispetto alle iscrizione singole</li>
+                                        <li class="Punti-salienti pt-16">Possibilita di inserire nuovi membri del team</li>
+                                        <li class="Punti-salienti pt-16"> Gestione dei permessi in base ai ruoli</li>
+                                    </ul>
+
+                                </div>
+                        </div>
+
+                        <div class="colonna mt-64">
+                                <div class="d-flex flex-justify-center pt-8 pb-8 titoli-col">
+                                    <div class="mr-16 f-16">Azienda</div>
+                                    <i class="fa-solid fa-building f-16"></i>
+                                </div>
+                                <div class="w-70 m-auto ">
+                                    <h3 class="f-24 pt-8">Interprice</h3>
+                                    <h3 class="f-16 pt-8">Contattaci</h3>
+                                    <div class="c-grey pt-16">/-</div>
+                                    
+                                    <div class="d-flex mt-32 pt-16">
+                                        <i class="fa-solid fa-user f-16"></i> 
+                                        <div class=" ml-8">
+                                            10 o più utenti
+                                        </div>   
+                                    </div>
+
+                                    <div class="d-flex mt-32 pt-16">
+                                        <i class="fa-solid fa-folder f-16"></i>
+                                        <div class=" ml-8">
+                                            3 TB (3000 GB) • 1 utente
+                                        <div>   
+                                    </div>
+
+                                    <div class="d-flex mt-32 pt-16">
+                                        <i class="fa-solid fa-share-nodes f-16"></i>
+                                        <div class=" ml-8">                                            
+                                            Funzione di produttività premium e condivisione dei file semplice e sicura
+                                        </div>   
+                                    </div>
+
+                                    <div class="bg-blue p-8 c-white mt-16">
+                                        Contattaci
+                                    </div>
+
+                                    <div class="pt-32">
+                                        oppure <span class="c-blue">acquista ora</span>
+                                    </div>
+
+                                    <div class="w-20 hr-colonna mt-32 mb-32"></div>
+
+                                    <h3>Punti salienti del piano</h3>
+
+                                    <ul>
+                                        <li class="Punti-salienti pt-16"> Cartelle offline dispositivi mobili</li>
+                                        <li class="Punti-salienti pt-16"> servizio 24/H</li>
+                                        <li class="Punti-salienti pt-16"> Possibilita di personalizzazione totale</li>
+
+                                    </ul>
+
+                                </div>
+                        </div>
 
                 </div>
 
-            </div>
+                        </div>
+                </div>
     
-            <div class="container-team vh-30 m-t">
-                <div class="team h-100 bg-red mg-64">
-                    <div class="h-20 bg-violet"><h2></h2></div>
+            <div class="container-team mt-32">
+                <div class="team h-100  mg-64">
+                    <div class="titolo-enterprise d-flex flex-justify-center flex-align-center p-4 ">
+                        <i class="fa-solid fa-building f-16"></i>
+                        <div>Team</div>
+                    </div>
+
                     <div class="d-flex h-80">
-                        <div class="w-70 h-100 bg-blue"></div>
-                        <div class="w-30 h-100 bg-orange"></div>
+                        <div class="w-60 h-100 ">
+                            <div class="p-8"><H2>Enterprise</H2></div>
+                            <div class="p-8 pb-32"><bold>Contatta l'ufficio vendite per i prezzi</bold></div>
+                            <div class="p-8">Soluzioni personalizzate e supporto du misura per aiutare i professionisti IT nella gestione su qualsiasi scala</div>
+
+                        </div>
+
+                        <div class="w-40 h-100  p-16">
+                            <div class="c-white bg-blue p-8 ">Contatta L'ufficio vendite</div>
+                        </div>
                     </div>
                 </div>
             </div>
     
-            <div class="d-flex vh-40 partner">
-                <div class="paragrafi bg-black h-100 w-50">
-                    <div></div>
-                    <div></div>
-                    <div></div>
+            <div class="d-flex vh-40 mb-64">
+                <div class="img bg-blue h-100 w-40"><img src="./dropbox-assets/img/partner.png" alt="foto" class="w-100 h-100"></div>
+                <div class="paragrafi h-100 w-60">
+                    <div class="m-16"><h3>Entra in contatto con un partner DropBox</h3></div>
+                    <div class="m-16"><p>Trova un partner DropBox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi aziendali,tra cui implementazione,integrazione,gestione e sopporto continui.</p></div>
+                    <div class="m-16 partner w-30 p-8">Trova un partner</div>
                 </div>
-                <div class="img bg-blue h-100 w-50"></div>
+
             </div>
 
-            <div class="DropBox-business d-flex f-wrap bg-red">
-                <div class="h-10 w-100 bg-green"><h1></h1></div>
+            <div class="DropBox-business d-flex f-wrap ">
+                <div class="f-24 w-100 d-flex flex-align-center"><h2>Esegui più operazioni con Dropbox Business</h2></div>
                 <div class="container-strumenti w-100 d-flex f-wrap h-90 ">
-                    <div class="strumenti w-100f3 bg-blue h-50">
-                        <img src="" alt="">
-                        <h3></h3>
-                        <p></p>
-                    </div>
                     
-                    <div class="strumenti bg-blue h-50 w-100f3">
-                        <img src="" alt="">
-                        <h3></h3>
-                        <p></p>
+                    <div class="strumenti w-100f3 h-50">
+                        <img src="./dropbox-assets/img/business-feature-switching-tools.png" alt="foto" class="w-100 h-50">
+                        <h3 class="pt-16">Passa di meno da uno strumento all'altro</h3>
+                        <p class="pt-32">Dropbox One fornisce più spazio di archiviazione e un metodo semplice per richiedere o aggiungere firme elettroniche illimitate, valide ai fini legali, ai documenti archiviati grazie a un semplice flusso di lavoro Dropbox.</p>
                     </div>
-                    
-                    <div class="strumenti bg-blue h-50 w-100f3">
-                        <img src="" alt="">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                    
-                    <div class="strumenti bg-blue h-50 w-100f3">
-                        <img src="" alt="">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                   
-                    <div class="strumenti bg-blue h-50 w-100f3">
-                        <img src="" alt="">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                    
-                    <div class="strumenti bg-blue h-50 w-100f3">
-                        <img src="" alt="">
-                        <h3></h3>
-                        <p></p>
 
+                    <div class="strumenti w-100f3 h-50">
+                        <img src="./dropbox-assets/img/business-feature-send-files-it.png" alt="foto" class="w-100 h-50">
+                        <h3 class="pt-16">Passa di meno da uno strumento all'altro</h3>
+                        <p class="pt-32">Porta a termine tutte le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud, come Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper, direttamente da Dropbox.</p>
+                    </div>
+
+                    <div class="strumenti w-100f3 h-50">
+                        <img src="./dropbox-assets/img/business-feature-security.png" alt="foto" class="w-100 h-50">
+                        <h3 class="pt-16">Passa di meno da uno strumento all'altro</h3>
+                        <p class="pt-32">Dropbox One fornisce più spazio di archiviazione e un metodo semplice per richiedere o aggiungere firme elettroniche illimitate, valide ai fini legali, ai documenti archiviati grazie a un semplice flusso di lavoro Dropbox.</p>
+                    </div>
+
+                    <div class="strumenti w-100f3 h-50">
+                        <img src="./dropbox-assets/img/business-feature-multi-device.png" alt="foto" class="w-100 h-50">
+                        <h3 class="pt-16">Passa di meno da uno strumento all'altro</h3>
+                        <p class="pt-32">Dropbox One fornisce più spazio di archiviazione e un metodo semplice per richiedere o aggiungere firme elettroniche illimitate, valide ai fini legali, ai documenti archiviati grazie a un semplice flusso di lavoro Dropbox.</p>
+                    </div>
+
+                    <div class="strumenti w-100f3 h-50">
+                        <img src="./dropbox-assets/img/business-feature-integrations-it.png" alt="foto" class="w-100 h-50">
+                        <h3 class="pt-16">Passa di meno da uno strumento all'altro</h3>
+                        <p class="pt-32">Dropbox One fornisce più spazio di archiviazione e un metodo semplice per richiedere o aggiungere firme elettroniche illimitate, valide ai fini legali, ai documenti archiviati grazie a un semplice flusso di lavoro Dropbox.</p>
+                    </div>
+
+                    <div class="strumenti w-100f3 h-50">
+                        <img src="./dropbox-assets/img/business-feature-coordinate-it.png" alt="foto" class="w-100 h-50">
+                        <h3 class="pt-16">Passa di meno da uno strumento all'altro</h3>
+                        <p class="pt-32">Dropbox One fornisce più spazio di archiviazione e un metodo semplice per richiedere o aggiungere firme elettroniche illimitate, valide ai fini legali, ai documenti archiviati grazie a un semplice flusso di lavoro Dropbox.</p>
                     </div>
 
                 </div>
+
                 <div class="d-flex flex-align-center">
                     <div>
-                        <h2></h2>
-                        <link rel="stylesheet" href="">    
+                        <h2 class="w-70 f-24 mt-64 mb">Più di 500.000 team utilizzando DropBox Business</h2>
+                        <a href="www.google.it" class="mt-16">Scopri di più sui nostri clienti</a>
                     </div>
                 </div>
+
+            </div>        
             </div>
-    
         </div>
 
-        <div class="affiliate w-100 vh-100">
-            <div class="w-100 h-80 bg-orange d-flex">
+        <div class="affiliate w-100 vh-50">
+            <div class="w-100 h-100 d-flex">
+                
                 <div class="soci d-flex f-wrap h-100 w-100f3" >
-                    <div class="w-50 h-50 block"></div>
-                    <div class="w-50 h-50 block"></div>
-                    <div class="w-50 h-50 block"></div>
-                    <div class="w-50 h-50 block"></div>
+                    <div class="w-50 h-50 block"><img src="./dropbox-assets/img/arizona_state_university.svg" alt="" class="w-100 h-100 p-64 icone iconaA"></div>
+                    <div class="w-50 h-50 block"><img src="./dropbox-assets/img/designit.svg" alt="" class="w-100 h-100 bg-darkred p-64 icone"></div>
+                    <div class="w-50 h-50 block"><img src="./dropbox-assets/img/university_of_florida.svg" alt="" class="w-100 h-100 p-64 bg-lightblue"></div>
+                    <div class="w-50 h-50 block"><img src="./dropbox-assets/img/topps.svg" alt="" class="w-100 h-100 p-64 icone bg-red c-white"></div>
                 </div>
+                
                 <div class="soci w-100f3"></div>
+                
                 <div class="soci d-flex f-wrap w-100f3" >
-                    <div class="w-50 h-50 block"></div>
-                    <div class="w-50 h-50 block"></div>
-                    <div class="w-50 h-50 block"></div>
-                    <div class="w-50 h-50 block"></div>
+                    <div class="w-50 h-50 block"><img src="./dropbox-assets/img/world_bicycle_relief.svg" alt="" class="w-100 h-100 p-64 icone bg-red c-white"></div>
+                    <div class="w-50 h-50 block"><img src="./dropbox-assets/img/hearst_corp.svg" alt="" class="w-100 h-100 p-64 icone bg-32 bg-lightblue c-white"></div>
+                    <div class="w-50 h-50 block"><img src="./dropbox-assets/img/lonely_planet.svg" alt="" class="w-100 h-100 bg-blue c-white p-64 icone"></div>
+                    <div class="w-50 h-50 block"><img src="./dropbox-assets/img/clear_channel.svg" alt="" class="w-100 h-100 p-64 h-100 bg-yellow"></div>
                 </div>
-            </div>
-            <div class="d-flex flex-align-center flex-justify-center mb-64 bg-lightcoral h-20 w-100">
-                <h2></h2>
-                <div></div>
+
             </div>
         </div>
 
-            <div class="vw-70 vh-60 m-auto bg-pink mb-64 mt-64 ">
+        <div class="d-flex flex-align-center flex-justify-around mb-64 bg-lightblue h-20 w-100 p-64">
+            <h2 class="c-darkred f-24 w-30">Porta DropBox Business nella tua azienda</h2>
+            <div class="p-16 bg-white">Inizia la tua prova gratuita</div>
+        </div>
+
+        
+
+        <div class=" vw-70 vh-60 m-auto mb-64  ">
                
-                <h2>Domande Frequenti</h2>
-                <hr>
+                <div class="faq d-flex">
+                    <h2>Domande Frequenti</h2>
+                </div>
 
-                <h3></h3>
-                <hr>
+                <div class="faq d-flex flex-justify-between flex-align-center">
+                    <h3 class="mt-32 mb-32">Qual'è la differenza tra DropBox standard e DropBox Business</h3>
+                    <i class="fa-solid fa-chevron-down f-16"></i>
+                </div>
 
-                <h3></h3>
-                <hr>
+                <div class="faq d-flex flex-justify-between flex-align-center">
+                    <h3 class="mt-32 mb-32">Qual'è la differenza tra DropBox standard e DropBox Business</h3>
+                    <i class="fa-solid fa-chevron-down f-16"></i>
+                </div>
+                
+                <div class="faq d-flex flex-justify-between flex-align-center">
+                    <h3 class="mt-32 mb-32">Qual'è la differenza tra DropBox standard e DropBox Business</h3>
+                    <i class="fa-solid fa-chevron-down f-16"></i>
+                </div>
+        </div>
 
-                <h3></h3>
-                <hr>
-            </div>
     </main>
 
-    <footer class="bg-black vh-30">
-        <div class=" bg-red w-70 h-70 m-auto d-flex flex-justify-around">
-            <div class="scritte "></div>
-            <div class="scritte "></div>
-            <div class="scritte "></div>
-            <div class="scritte "></div>
-            <div class="scritte "></div>
+    <footer class="bg-black vh-70">
+        <div class=" w-90 h-90 m-auto d-flex flex-justify-around container-footer">
+            <div class="scritte ">
+                <h3 class="c-white f-24 pb-64">DropBox</h3>
+                <ul>
+                    <li class="mt-8 c-white mb-32 f-16">Applicazione desktop</li>
+                    <li class="mt-8 c-white mb-32 f-16">App mobile</li>
+                    <li class="mt-8 c-white mb-32 f-16">Soluzioni</li>
+                    <li class="mt-8 c-white mb-32 f-16">Fai di più che archiviare</li>
+                    <li class="mt-8 c-white mb-32 f-16 mb-8" >Sicurezza</li>
+                    <div class="loghi w-70 pb-16">
+                        <i class="fa-brands fa-twitter mr-16 c-white"></i>
+                        <i class="fa-brands fa-instagram mr-16 c-white"></i>
+                        <i class="fa-brands fa-youtube mr-16 c-white"></i>
+                    </div>
+                   
+                    <div class="d-flex flex-align-center f-8">
+                        <i class="fa-solid fa-globe c-white m-8"></i>
+                        <span class="c-white f-16 m-8">Italiano</span>
+                        <i class="fa-solid fa-caret-up c-white f-8 m-8"></i>
+                    </div>
+                    
+                </ul>
+            </div>
+
+            <div class="scritte ">
+                <h3 class="c-white f-24 pb-64">Prodotti</h3>
+                <ul>
+                    <li class="mt-8 c-white mb-32 f-16">Applicazione desktop</li>
+                    <li class="mt-8 c-white mb-32 f-16">App mobile</li>
+                    <li class="mt-8 c-white mb-32 f-16">Soluzioni</li>
+                    <li class="mt-8 c-white mb-32 f-16">Fai di più che archiviare</li>
+                    <li class="mt-8 c-white mb-8 mb-32 f-16" >Sicurezza</li>
+                </ul>
+            </div>
+
+            <div class="scritte ">
+                <h3 class="c-white f-24 pb-64">Azienda</h3>
+                <ul>
+                    <li class="mt-8 c-white mb-32 f-16">Applicazione desktop</li>
+                    <li class="mt-8 c-white mb-32 f-16">App mobile</li>
+                    <li class="mt-8 c-white mb-32 f-16">Soluzioni</li>
+                    <li class="mt-8 c-white mb-32 f-16">Fai di più che archiviare</li>
+                    <li class="mt-8 c-white mb-32 f-16 mb-8" >Sicurezza</li>
+                </ul>
+            </div>
+
+            <div class="scritte ">
+                <h3 class="c-white f-24 pb-64">Supporto</h3>
+                <ul>
+                    <li class="mt-8 c-white mb-32 f-16">Applicazione desktop</li>
+                    <li class="mt-8 c-white mb-32 f-16">App mobile</li>
+                    <li class="mt-8 c-white mb-32 f-16">Soluzioni</li>
+                    <li class="mt-8 c-white mb-32 f-16">Fai di più che archiviare</li>
+                    <li class="mt-8 c-white mb-32 f-16 mb-8" >Sicurezza</li>
+                </ul>
+            </div>
+
+            <div class="scritte ">
+                <h3 class="c-white f-24 pb-64">Community</h3>
+                <ul>
+                    <li class="mt-8 c-white mb-32 f-16">Applicazione desktop</li>
+                    <li class="mt-8 c-white mb-32 f-16">App mobile</li>
+                    <li class="mt-8 c-white mb-32 f-16">Soluzioni</li>
+                    <li class="mt-8 c-white mb-32 f-16">Fai di più che archiviare</li>
+                    <li class="mt-8 c-white mb-32 f-16 mb-8" >Sicurezza</li>
+                </ul>
+            </div>
+
         </div>
     </footer>
 </body>

@@ -21,6 +21,7 @@
 .flex-justify-around { justify-content: space-around; }
 .flex-justify-center { justify-content: center; }
 .flex-align-center { align-items: center; }
+.flex-align-start { align-items:start; }
 .f-wrap{flex-wrap:wrap;}
 
 /*** LARGHEZZE ***/
@@ -72,6 +73,14 @@
 .my-16 { margin: 16px 0; }
 .mx-16 { margin: 0 16px; }
 
+.m-32 { margin: 32px; }
+.mt-32 { margin-top: 32px; }
+.mr-32 { margin-right: 32px; }
+.mb-32 { margin-bottom: 32px; }
+.ml-32 { margin-left: 32px; }
+.my-32 { margin: 32px 0; }
+.mx-32 { margin: 0 32px; }
+
 .m-64 { margin: 64px; }
 .mt-64 { margin-top: 64px; }
 .mr-64 { margin-right: 64px; }
@@ -99,6 +108,14 @@
 .py-16 { padding: 16px 0; }
 .px-16 { padding: 0 16px; }
 
+.p-32 { padding: 32px; }
+.pt-32 { padding-top: 32px; }
+.pr-32 { padding-right: 32px; }
+.pb-32 { padding-bottom: 32px; }
+.pl-32 { padding-left: 32px; }
+.py-32 { padding: 32px 0; }
+.px-32 { padding: 0 32px; }
+
 .p-64 { padding: 64px; }
 .pt-64 { padding-top: 64px; }
 .pr-64 { padding-right: 64px; }
@@ -112,17 +129,21 @@
 .bg-goldenrod { background-color: goldenrod; }
 .bg-darkblue { background-color: darkblue; }
 .bg-blue { background-color: blue; }
+.bg-lightblue { background-color: lightblue; }
 .bg-darkgrey { background-color: darkgrey; }
 .bg-dodgerblue { background-color: dodgerblue; }
 .bg-pink { background-color: pink; }
+.bg-darkred { background-color: darkred; }
 .bg-red { background-color: red; }
 .bg-grey { background-color: grey; }
 .bg-black { background-color:black; }
 .bg-orange { background-color:orange;}
 .bg-white { background-color: white; }
 .bg-green { background-color: green; }
+.bg-greenyellow { background-color: greenyellow; }
 .bg-violet { background-color: violet; }
 .bg-lightseagreen { background-color: lightseagreen; }
+.bg-yellow { background-color:yellow; }
 .bg-lightcoral { background-color: lightcoral; }
 .bg-forestgreen { background-color: forestgreen; }
 .bg-aquamarine { background-color: aquamarine; }
@@ -134,9 +155,12 @@
 .c-lightblue {color: lightblue; }
 .c-goldenrod {color: goldenrod; }
 .c-darkblue {color: darkblue; }
+.c-blue {color: blue; }
+
 .c-dodgerblue {color: dodgerblue; }
 .c-pink {color: pink; }
 .c-red {color: red; }
+.c-darkred {color: darkred; }
 .c-green {color: green; }
 .c-violet {color: violet; }
 .c-lightseagreen {color: lightseagreen; }
@@ -145,6 +169,7 @@
 .c-aquamarine {color: aquamarine; }
 .c-darkslategray {color: darkslategray; }
 .c-lightgray {color: lightgray; }
+.c-grey {color: grey; }
 .c-white {color: white; }
 .c-nome {color: nome; }
 
@@ -155,6 +180,7 @@
 .f-8{font-size: 8px;}
 .f-14{font-size: 14px;}
 .f-16{font-size: 16px;}
+.f-24{font-size: 24px;}
 .f-32{font-size: 32px;}
 .f-64{font-size: 64px;}
 /*** FONT-SIZE ***/
