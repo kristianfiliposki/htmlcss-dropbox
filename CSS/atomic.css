@@ -4,6 +4,8 @@
 
 header{z-index:999;top: 0;}
 
+header li:hover{ border-bottom: 1px solid black;}
+
 .colonna{
     width : 30%;
     border: 1px solid black;
