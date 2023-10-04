@@ -94,3 +94,11 @@ background: radial-gradient(circle, rgba(88,149,68,1) 82%, rgba(237,237,237,1) 1
 }
 
 .container-footer{padding-top:100px;}
+
+.login:hover,.start:hover,footer h3:hover,footer li:hover{text-decoration: underline;}
+
+.login{
+    text-decoration: none;
+    color: white;
+    
+}
