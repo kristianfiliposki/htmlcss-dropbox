@@ -102,3 +102,13 @@ background: radial-gradient(circle, rgba(88,149,68,1) 82%, rgba(237,237,237,1) 1
     color: white;
     
 }
+
+.faq{overflow: hidden;max-height: 5em;}
+.faq:hover{min-height: 250px;}
+
+.img-jumbo:active{
+    transform: scale(1.3);
+    z-index: 9999;
+}
+
+a{text-decoration: none;}
